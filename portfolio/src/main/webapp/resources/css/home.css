@@ -1,0 +1,150 @@
+body{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../image/city.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.headerDiv{
+	width: 100%;
+}
+
+.searchBar, .searchButton{
+	color:white;
+	margin-top:5px;
+}
+
+.middleDiv{
+	display:none;
+	position:relative;
+}
+
+.contentDiv{
+	width: 100%;
+	text-align:center;
+	position: absolute;
+	margin: 0 auto;
+	margin-top:50px;
+	animation-duration:1s;
+	animation-name:fadeUp;
+}
+
+.headerContent{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.headerContent .titleText, .headerContent .subTitleText{
+	color:white;
+}
+
+.headerContent .titleText{
+	padding: 5px;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.headerContent .subTitleText{
+	padding: 20px;	
+}
+
+.activateButton{
+	text-align: center;
+	width: 200px;
+	height: auto;
+	margin-bottom: 160px;
+}
+
+.nextScrollDiv{
+	/*display: none;*/
+	width: 200px;
+	left: 80%;
+	transform: translate(0%, -50%);
+	margin: 0 auto;
+	opacity: 0;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+	transition: all 0.5s ease-in-out;
+}
+
+.nextScrollDiv:hover{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+}
+
+.nextScrollButton{
+	cursor: pointer;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.middleContent{
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.firstContent{
+	background-color: rgba(20, 20, 20, 0.5);
+	margin: 0 auto;
+	height: 600px;
+	padding: 150px;
+	color: white;
+}
+
+.firstContent .titleText{
+	font-size: 25px;
+	font-weight: bold;
+	padding: 20px;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+}
+
+.firstContent .subTitleText{
+	font-size: 20px;
+	padding: 10px;
+	color: white;
+}
+
+.firstContent .activateButton{
+	margin-top: 20px;
+}
+
+.secondContent{
+	background-color: rgba(232, 232, 232, 0.5);
+	margin: 0 auto;
+	height: 800px;
+	padding: 150px;
+}
+
+.secondContent .titleText{
+	font-size: 25px;
+	font-weight: bold;
+	padding: 20px;
+	width: 50%;
+	margin: 0 auto;
+	border-bottom: 3px solid black;
+}
+
+.secondContent .subContent{
+	padding: 30px;
+}
+
+.subContent .card{
+	float: left;
+	margin-left: 60px;
+}
+
+
+@keyframes fadeUp{
+	from {
+	margin-top:150px;
+	opacity: 0;
+  }
+
+  to {
+    margin-top: 50px;
+    opacity: 1;
+  }
+}
