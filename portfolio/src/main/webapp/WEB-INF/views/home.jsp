@@ -71,7 +71,7 @@
 	<div class="middleDiv">
 		<div class="contentDiv">
 			<div class="headerContent">
-				<div class="titleText">test text</div>
+				<div class="titleText">test</div>
 				<div class="subTitleText">
 					Lorem Ipsum is simply dummy text of the printing and typesetting
 					industry. Lorem Ipsum has been the industry's standard dummy text
