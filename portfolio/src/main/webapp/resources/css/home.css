@@ -31,7 +31,7 @@ body{
 
 .headerContent{
 	width: 50%;
-	margin: 0 auto;
+	margin: 5% auto;
 }
 
 .headerContent .titleText, .headerContent .subTitleText{
@@ -81,7 +81,7 @@ body{
 
 .middleContent{
 	width: 100%;
-	margin-top: 100px;
+	margin-top: 10%;
 	margin-bottom: 50px;
 }
 

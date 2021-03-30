@@ -10,7 +10,7 @@
 <script src="<c:url value='/resources/plugins/jquery-3.5.1.min.js'/>"></script>
 <script src="<c:url value='/resources/plugins/bootstrap-5.0.0-beta2-dist/js/bootstrap.min.js'/>" ></script>
 <link type="text/css" rel="stylesheet" href="<c:url value='/resources/plugins/bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css'/>"/>
-<link type="text/css" rel="stylesheet" href="<c:url value='/resources/css/home.css'/>"/>
+<link type="text/css" rel="stylesheet" href="<c:url value='/resources/css/home.css?qw=2'/>"/>
 <script>
 	$(document).ready(function(){
 		$('.middleDiv').fadeIn(1500);
@@ -56,19 +56,10 @@
 							<a class="nav-link upperMenu" href="#">About</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link upperMenu" href="#">Services</a>
+							<a class="nav-link upperMenu" href="#">Project</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link upperMenu" href="#">Contact</a>
-						</li>
-					</ul>
-			
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-							<input class="form-control form-control-sm searchBar" type="text" placeholder="Search..." />
-						</li>
-						<li class="nav-item">
-							<button class="btn btn-outline-light btn-sm searchButton" type="submit">Search</button>
 						</li>
 					</ul>
 				</div>
