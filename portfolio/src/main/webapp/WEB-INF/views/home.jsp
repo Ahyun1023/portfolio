@@ -119,7 +119,7 @@
 					</div>
 					<div class="subContent">
 						<div class="card" style="width: 18rem;">
-							<img class="card-img-top" src="https://via.placeholder.com/242x200" alt="Card image cap">
+							<img class="card-img-top" src="./resources/image/cardCity1.jpg" alt="Card image cap">
 							<div class="card-body">
 								<h5 class="card-title">Card title</h5>
 								<p class="card-text">Some quick example text to build on the
@@ -128,7 +128,7 @@
 							</div>
 						</div>
 						<div class="card" style="width: 18rem;">
-							<img class="card-img-top" src="https://via.placeholder.com/242x200" alt="Card image cap">
+							<img class="card-img-top" src="./resources/image/cardCity2.jpg" alt="Card image cap">
 							<div class="card-body">
 								<h5 class="card-title">Card title</h5>
 								<p class="card-text">Some quick example text to build on the
@@ -137,7 +137,7 @@
 							</div>
 						</div>
 						<div class="card" style="width: 18rem;">
-							<img class="card-img-top" src="https://via.placeholder.com/242x200" alt="Card image cap">
+							<img class="card-img-top" src="./resources/image/cardCity3.jpg" alt="Card image cap">
 							<div class="card-body">
 								<h5 class="card-title">Card title</h5>
 								<p class="card-text">Some quick example text to build on the

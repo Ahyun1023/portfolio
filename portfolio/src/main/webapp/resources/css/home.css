@@ -113,7 +113,7 @@ body{
 
 .secondContent{
 	background-color: rgba(232, 232, 232, 0.5);
-	margin: 0 auto;
+	margin: 10% auto;
 	height: 800px;
 	padding: 150px;
 }
@@ -133,7 +133,7 @@ body{
 
 .subContent .card{
 	float: left;
-	margin-left: 60px;
+	margin-left: 180px;
 }
 
 
