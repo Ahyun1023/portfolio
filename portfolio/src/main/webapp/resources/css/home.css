@@ -1,4 +1,5 @@
 body{
+	font-family: 'Roboto', sans-serif;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../image/city.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -31,7 +32,7 @@ body{
 
 .headerContent{
 	width: 50%;
-	margin: 5% auto;
+	margin: 10% auto;
 }
 
 .headerContent .titleText, .headerContent .subTitleText{
@@ -41,7 +42,6 @@ body{
 .headerContent .titleText{
 	padding: 5px;
 	font-size: 50px;
-	font-weight: bold;
 }
 
 .headerContent .subTitleText{
@@ -59,6 +59,7 @@ body{
 	/*display: none;*/
 	width: 200px;
 	left: 80%;
+	font-size: 20px;
 	transform: translate(0%, -50%);
 	margin: 0 auto;
 	opacity: 0;
@@ -75,13 +76,12 @@ body{
 .nextScrollButton{
 	cursor: pointer;
 	color: white;
-	font-weight: bold;
 	font-size: 20px;
 }
 
 .middleContent{
 	width: 100%;
-	margin-top: 10%;
+	margin-top: 100px;
 	margin-bottom: 50px;
 }
 
@@ -95,7 +95,6 @@ body{
 
 .firstContent .titleText{
 	font-size: 25px;
-	font-weight: bold;
 	padding: 20px;
 	border-top: 3px solid white;
 	border-bottom: 3px solid white;
@@ -112,35 +111,90 @@ body{
 }
 
 .secondContent{
-	background-color: rgba(232, 232, 232, 0.5);
+	background-color: rgba(232, 232, 232, 0.8);
 	margin: 10% auto;
-	height: 800px;
-	padding: 150px;
+	height: auto;
 }
 
 .secondContent .titleText{
-	font-size: 25px;
-	font-weight: bold;
-	padding: 20px;
+	font-size: 30px;
+	padding: 10px;
 	width: 50%;
 	margin: 0 auto;
 	border-bottom: 3px solid black;
 }
 
+.secondContent .slideDiv{
+	width: 100%;
+	padding: 50px;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.secondContent .prev, .secondContent .next{
+	background-color: none;
+	cursor: pointer;
+	padding: 30px;
+	margin-top: 14%;
+	transition: all 0.3s ease-in-out;
+}
+
+.secondContent .prev:hover, .secondContent .next:hover{
+	background-color: #c7c7c7;
+	border-radius: 5px;
+}
+
+.prev, .next, .secondContent .subContent{
+	display:inline-block;
+	float: left;
+}
+
 .secondContent .subContent{
 	padding: 30px;
+	width: 85%;
 }
 
 .subContent .card{
 	float: left;
-	margin-left: 180px;
+	width: 15rem;
+	margin-left: 70px;
+	margin-right: 70px;
 }
 
+.img{
+	height: auto;
+}
+
+.footerContent{
+	color: white;
+}
+
+.endDiv{
+	width: 100%;
+	height: 300px;
+	background-color: #414a57;
+}
+
+.endIcons{
+	margin-top: 50px;
+	border: 3px solid white;
+}
+
+.endIcon{
+	cursor: pointer;
+	color: #d1d1d1;
+	margin-left: 30px;
+	transition: all 0.5s ease-in-out;
+}
+
+.endIcon:hover{
+	color: white;
+}
 
 @keyframes fadeUp{
 	from {
-	margin-top:150px;
-	opacity: 0;
+		margin-top:150px;
+		opacity: 0;
   }
 
   to {
