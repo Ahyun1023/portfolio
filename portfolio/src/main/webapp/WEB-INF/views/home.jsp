@@ -77,19 +77,10 @@
 							<a class="nav-link upperMenu" href="#">About</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link upperMenu" href="#">Services</a>
+							<a class="nav-link upperMenu" href="#">Project</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link upperMenu" href="#">Contact</a>
-						</li>
-					</ul>
-			
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-							<input class="form-control form-control-sm searchBar" type="text" placeholder="Search..." />
-						</li>
-						<li class="nav-item">
-							<button class="btn btn-outline-light btn-sm searchButton" type="submit">Search</button>
 						</li>
 					</ul>
 				</div>
