@@ -224,8 +224,8 @@
 			<!-- 하단 div -->
 			<div class="endDiv">
 				<div class="endIcons">
-					<i class="fa fa-2x fa-instagram endIcon" aria-hidden="true"></i>
-					<i class="fa fa-2x fa-facebook-official endIcon" aria-hidden="true"></i>
+					<!--<i class="fa fa-2x fa-instagram endIcon" aria-hidden="true"></i>
+					<i class="fa fa-2x fa-facebook-official endIcon" aria-hidden="true"></i>-->
 					<i class="fa fa-2x fa-github endIcon" aria-hidden="true"></i>
 					<i class="fa fa-2x fa-envelope endIcon" aria-hidden="true"></i>
 				</div>	
