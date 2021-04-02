@@ -125,7 +125,6 @@ body{
 }
 
 .secondContent .slideDiv{
-	border: 3px solid black;
 	width: 100%;
 	padding: 50px;
 	margin: 0 auto;
@@ -133,10 +132,11 @@ body{
 }
 
 .secondContent .prev, .secondContent .next{
+	border: 3px solid black;
 	background-color: none;
 	cursor: pointer;
 	padding: 30px;
-	margin-top: 14%;
+	margin-top: 15%;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -147,10 +147,10 @@ body{
 
 .prev, .next, .secondContent .subContent{
 	display:inline-block;
+	float: left;
 }
 
 .secondContent .subContent{
-	border: 3px solid white;
 	padding: 30px;
 	width: 85%;
 }
@@ -158,7 +158,7 @@ body{
 .subContent .card{
 	float: left;
 	width: 15rem;
-	margin-left: 100px;
+	margin-left: 130px;
 	margin-right: 70px;
 }
 
@@ -176,10 +176,9 @@ body{
 }
 
 .endIcon{
-	border: 3px solid black;
 	cursor: pointer;
 	color: #d1d1d1;
-	margin-top: 2%;
+	margin-top: 2%;	
 	margin-left: 5%;
 	margin-right: 5%;
 	transition: all 0.5s ease-in-out;
